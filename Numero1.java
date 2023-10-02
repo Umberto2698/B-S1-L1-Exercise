@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Numero1 {
     public static void main(String[] args) {
         System.out.println(Moltiplica(12, 3));
-        System.out.printf(Concatena("ciao ", 2));
+        System.out.println(Concatena("ciao ", 2));
         String[] Arr = {"Ciao", "il", "mio", "nome", "è", ""};
         System.out.println(Arrays.toString(inserisciInArray(Arr, "Umberto")));
     }
