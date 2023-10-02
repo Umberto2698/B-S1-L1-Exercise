@@ -5,7 +5,7 @@ public class Numero1 {
         System.out.println(Moltiplica(12, 3));
         System.out.printf(Concatena("ciao ", 2));
         String[] Arr = {"Ciao", "il", "mio", "nome", "è", ""};
-        System.out.println(Arrays.toString(InserisciInArray(Arr, "Umberto")));
+        System.out.println(Arrays.toString(inserisciInArray(Arr, "Umberto")));
     }
 
     public static int Moltiplica(int n1, int n2) {
@@ -17,7 +17,7 @@ public class Numero1 {
 //        if (str.charAt(str.length()) != "b") {}
     }
 
-    public static String[] InserisciInArray(String[] arr, String str) {
+    public static String[] inserisciInArray(String[] arr, String str) {
         arr[5] = arr[4];
         arr[4] = arr[3];
         arr[3] = arr[2];
